@@ -20,6 +20,7 @@ on:
           - codesnas/linux-5.10.y-rk35xx
           - armbian/linux-rockchip@rk-6.1-rkr3
           - pjw66/linux-5.10.y-rk35xx
+          - pjw66/linux-rockchip@rk-6.1-rkr3
       kernel_version:
         description: "Select kernel version"
         required: false
