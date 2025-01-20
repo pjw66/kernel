@@ -19,7 +19,7 @@ on:
           - unifreq/linux-5.10.y-rk35xx
           - codesnas/linux-5.10.y-rk35xx
           - pjw66/linux-5.10.y-rk35xx
-          - pjw66/linux-rockchip@rk-6.1-rkr3
+          - pjw66/linux-rockchip@rk-6.1-rkr4.1
           - armbian/linux-rockchip@rk-6.1-rkr4.1
       kernel_version:
         description: "Select kernel version"
