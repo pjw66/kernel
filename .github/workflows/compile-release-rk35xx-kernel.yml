@@ -19,8 +19,8 @@ on:
           - unifreq/linux-5.10.y-rk35xx
           - codesnas/linux-5.10.y-rk35xx
           - pjw66/linux-5.10.y-rk35xx
-          - pjw66/linux-rockchip@rk-6.1-rkr4.1
-          - armbian/linux-rockchip@rk-6.1-rkr4.1
+          - pjw66/linux-rockchip@rk-6.1-rkr5
+          - armbian/linux-rockchip@rk-6.1-rkr5
       kernel_version:
         description: "Select kernel version"
         required: false
@@ -114,7 +114,7 @@ jobs:
           sudo rm -f /swapfile /mnt/swapfile
           sudo -E apt-get -y update
           sudo -E apt-get -y purge azure-cli ghc* zulu* llvm* firefox google* dotnet* powershell openjdk* mongodb* moby* || true
-          sudo -E apt-get -y install $(curl -fsSL https://is.gd/depend_ubuntu2204_armbian)
+          sudo -E apt-get -y install $(curl -fsSL https://tinyurl.com/ubuntu2204-build-armbian)
           sudo -E systemctl daemon-reload
           #sudo -E apt-get -y full-upgrade
           sudo -E apt-get -y autoremove --purge
